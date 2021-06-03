@@ -8,7 +8,7 @@ import numpy as qw
 
 
 
-A=('pineapple apple rat kk arti ')
+A=('pineapple apple pi lime ')
 print(A,type(A))
 
 B=A.split()
@@ -21,24 +21,17 @@ print(D[2])
 print(len(D[0]),len(D[2]),type(len(D[0])))
 def split(G):
     return [char for char in G]
-G=("suhas is in home")
+G=("suhas is in home ?")
 
 print(split(G),type(G))
 
-
-
-
 T=('suhas ms is at home ')
 print(T,type(T))
-
 Y=T.split()
 print(Y,type(Y))
-
 I=qw.array(Y)
 print(I,type(I))
-
 arr=qw.array_split(I,5)
-
 print(arr)
 
 
