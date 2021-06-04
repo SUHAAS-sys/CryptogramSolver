@@ -64,3 +64,5 @@ if __name__ == '__main__':
     # print(original_list)
     # print(length_sorted_list)
     print(str(dictionary_memory))
+
+    sort
